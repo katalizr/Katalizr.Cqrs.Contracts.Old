@@ -1,4 +1,4 @@
-$ErrorActionPreference='Stop'
+﻿$ErrorActionPreference='Stop'
 <#
 .SYNOPSIS
   This is a helper function that runs a scriptblock and checks the PS variable $lastexitcode
@@ -53,6 +53,7 @@ function Test-Solution{
     Write-Host "Testing" -ForegroundColor "magenta"
     Get-ChildItem -Filter *.Tests | ForEach-Object {Test-Project -ProjectName $_.Name}
 }
+
 Clean-Solution
 Restore-Solution
 Build-Solution
