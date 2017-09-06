@@ -46,5 +46,9 @@ $env:branch = ConvertTo-KebabCase -Name $env:APPVEYOR_REPO_BRANCH
 Update-AppveyorBuild -Version $env:version
 
 if ($env:APPVEYOR_REPO_BRANCH -ne "master"){
-  $env:version = "$env:Version-$env:branch"
+  if($env:APPVEYOR_REPO_BRANCH -eq "develop"){
+    $env:version = "$env:Version-preview"
+  }else{
+    $env:version = "$env:Version-$env:branch"
+  }
 }

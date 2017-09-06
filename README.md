@@ -1,8 +1,8 @@
 # Katalizr.Cqrs.Contracts
-[![AppVeyor](https://img.shields.io/appveyor/ci/katalizr/Katalizr.Cqrs.Contracts.svg)]()
-[![NuGet](https://img.shields.io/nuget/v/Katalizr.Cqrs.Contracts.svg)]()
-[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Katalizr.Cqrs.Contracts.svg)]()
-[![NuGet](https://img.shields.io/nuget/dt/Katalizr.Cqrs.Contracts.svg)]()
+[![AppVeyor](https://img.shields.io/appveyor/ci/Aadryn/katalizr-cqrs-contracts.svg)](https://ci.appveyor.com/project/Aadryn/katalizr-cqrs-contracts)
+[![NuGet](https://img.shields.io/nuget/v/Katalizr.Cqrs.Contracts.svg)](https://www.nuget.org/packages/Katalizr.Cqrs.Contracts/)
+[![NuGet](https://img.shields.io/nuget/vpre/Katalizr.Cqrs.Contracts.svg)](https://www.nuget.org/packages/Katalizr.Cqrs.Contracts/)
+[![NuGet](https://img.shields.io/nuget/dt/Katalizr.Cqrs.Contracts.svg)](https://www.nuget.org/packages/Katalizr.Cqrs.Contracts/)
 
 ### What is Katalizr.Cqrs.Contracts?
 The **Katalatizr.Cqrs.Contracts** library was created to provide standardized interfaces to implement C# solutions with a CQRS architecture.
@@ -13,7 +13,7 @@ First, install NuGet. Then, install Katalizr.Cqrs.Contracts from the package man
 PM> Install-Package Katalizr.Cqrs.Contracts
 ```
 
-### Code Of conduct
+### Code Of Conduct
 This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community.
 For more information see the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). 
 
