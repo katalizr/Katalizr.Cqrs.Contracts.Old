@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Common", "00. Common", "{E679E5E4-DB7D-4196-88C6-75BDDCF87D2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Solution", "01. Solution", "{E99F3420-D57D-4D54-977B-8FECE5C21474}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Git", "01. Git", "{B8E888D2-30E8-496E-AB44-71C52DB95404}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Styling", "02. Styling", "{ADAC9D42-6C5F-4507-9D8B-CD2133048676}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katalizr.Cqrs.Contracts", "Katalizr.Cqrs.Contracts\Katalizr.Cqrs.Contracts.csproj", "{F086E365-8060-4241-B627-2E64321BD3A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Continuous Integration", "03. Continuous Integration", "{01CA5A3B-38F6-40AF-B830-98E183160865}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		build.ps1 = build.ps1
+		init.ps1 = init.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Github", "04. Github", "{42DAD137-FE75-45CD-B3A4-F5FCD5518D73}"
+ProjectSection(SolutionItems) = preProject
+	LICENSE = LICENSE
+	README.md = README.md
+	CONTRIBUTING.md = CONTRIBUTING.md
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Debug|x64.Build.0 = Debug|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Debug|x86.Build.0 = Debug|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Release|x64.ActiveCfg = Release|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Release|x64.Build.0 = Release|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Release|x86.ActiveCfg = Release|Any CPU
+		{F086E365-8060-4241-B627-2E64321BD3A8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8E888D2-30E8-496E-AB44-71C52DB95404} = {E679E5E4-DB7D-4196-88C6-75BDDCF87D2A}
+		{ADAC9D42-6C5F-4507-9D8B-CD2133048676} = {E679E5E4-DB7D-4196-88C6-75BDDCF87D2A}
+		{F086E365-8060-4241-B627-2E64321BD3A8} = {E99F3420-D57D-4D54-977B-8FECE5C21474}
+		{01CA5A3B-38F6-40AF-B830-98E183160865} = {E679E5E4-DB7D-4196-88C6-75BDDCF87D2A}
+		{42DAD137-FE75-45CD-B3A4-F5FCD5518D73} = {E679E5E4-DB7D-4196-88C6-75BDDCF87D2A}
+	EndGlobalSection
+EndGlobal
